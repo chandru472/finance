@@ -74,7 +74,7 @@ const SignUp = () => {
    
       <Box
         sx={{
-          height: {sm:"100vh"},
+          height: {xs:"100vh"},
           display: "flex",
           justifyContent: "center",
         
