@@ -80,6 +80,7 @@ const SignUp = () => {
         
           alignItems: "center",
           width:"100%",
+          overflow:"hidden"
         
          
           

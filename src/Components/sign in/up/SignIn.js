@@ -65,6 +65,7 @@ const SignIn = () => {
 
         alignItems: "center",
         width: "100%",
+        overflow:"hidden"
         
       }}
     >
