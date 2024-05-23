@@ -103,17 +103,17 @@ const SignUp = () => {
           </Box>
 
           <Box>
-            <Typography sx={{ fontSize: "1.8rem", mt: 3,  px:{xs:4,md:8} ,textAlign:"center",color:"#0099ff",fontWeight:600}}>Techbrain Networks</Typography>
+            <Typography sx={{ fontSize: "1.8rem", mt: 3,  px:8 ,textAlign:"center",color:"#0099ff",fontWeight:600}}>Techbrain Networks</Typography>
           </Box>
 
-          <Typography sx={{ fontSize: "1rem", mt: 3,  px:{xs:4,md:8},fontWeight:600 }}>
+          <Typography sx={{ fontSize: "1rem", mt: 3,  px:8,fontWeight:600 }}>
             Sign Up
           </Typography>
 
-          <Box sx={{  px:{xs:4,md:8} }}>
+          <Box sx={{  px:8 }}>
             <Box>
               <TextField
-                sx={{ mt: 3,width:{md:"280px"} }}
+                sx={{ mt: 3,width:"300px" }}
                 id="input-with-icon-textfield"
                 size="small"
                 placeholder="Enter Your Name"
@@ -132,7 +132,7 @@ const SignUp = () => {
 
             <Box>
               <TextField
-                sx={{ mt: 3 ,width:{md:"280px"}}}
+                sx={{ mt: 3 ,width:"300px"}}
                 id="input-with-icon-textfield"
                 size="small"
                 placeholder="Enter Your Email"
@@ -151,7 +151,7 @@ const SignUp = () => {
 
             <Box>
               <TextField
-                sx={{ mt: 3,width:{md:"280px"} }}
+                sx={{ mt: 3,width:"300px" }}
                 id="input-with-icon-textfield"
                 size="small"
                 placeholder="Enter Your Password"
@@ -183,7 +183,7 @@ const SignUp = () => {
 
             <Box>
               <TextField
-                sx={{ mt: 3,width:{md:"280px"} }}
+                sx={{ mt: 3,width:"300px" }}
                 id="input-with-icon-textfield"
                 size="small"
                 placeholder="Re-Enter The Password"
@@ -226,7 +226,7 @@ const SignUp = () => {
             </Button>
           </Box>
 
-          <Box sx={{ display: "flex",justifyContent:"center", mt: 3,  px:{xs:4,md:8} }}>
+          <Box sx={{ display: "flex",justifyContent:"center", mt: 3,  px:8 }}>
             <Typography>Already have an account ?</Typography>
             <Link to="/Signin" style={{textDecoration:"none"}}><Typography sx={{ cursor: "pointer", ml: 1,color:"#0099ff" }}>Sign In</Typography></Link>
           </Box>

@@ -89,7 +89,7 @@ const SignIn = () => {
             sx={{
               fontSize: "1.8rem",
               mt: 3,
-              px: { xs: 4, md: 8 },
+              px: 8,
               textAlign: "center",
               color: "#0099ff",
               fontWeight:600
@@ -99,17 +99,17 @@ const SignIn = () => {
           </Typography>
         </Box>
 
-        <Typography sx={{ fontSize: "1rem", mt: 3, px: { xs: 4, md: 8 },fontWeight:600 }}>
+        <Typography sx={{ fontSize: "1rem", mt: 3, px: 8,fontWeight:600 }}>
           Sign In
         </Typography>
 
         <form onSubmit={handleLogin}>
-          <Box sx={{ px: { xs: 4, md: 8 } }}>
+          <Box sx={{ px:8}}>
             <Box>
               
 
               <TextField
-                sx={{ mt: 3, width: { md: "280px" } }}
+                sx={{ mt: 3, width:"300px" }}
                 id="input-with-icon-textfield"
                 size="small"
                 onChange={(e) => setEmail(e.target.value)}
@@ -139,7 +139,7 @@ const SignIn = () => {
 
             <Box>
               <TextField
-                sx={{ mt: 3, width: { md: "280px" } }}
+                sx={{ mt: 3, width:"300px"  }}
                 id="input-with-icon-textfield"
                 size="small"
                 type={showPassword ? 'text' : 'password'}
