@@ -59,7 +59,7 @@ const SignIn = () => {
   return (
     <Box
       sx={{
-        height: "100vh",
+        height: {md:"100vh"},
         display: "flex",
         justifyContent: "center",
 
