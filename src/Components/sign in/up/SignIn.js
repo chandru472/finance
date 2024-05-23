@@ -71,7 +71,7 @@ const SignIn = () => {
     >
       {/* Main */}
 
-      <Box sx={{ boxShadow: 5, p: 0, m: 0 }}>
+      <Box sx={{ boxShadow: 5, p: 0, m: 0 ,border:2,borderColor:"#0099ff" }}>
         {/* Form */}
 
         <Box sx={{ borderRadius: "10px" }}>
@@ -90,7 +90,7 @@ const SignIn = () => {
             sx={{
               fontSize: "1.8rem",
               mt: 3,
-              px: 8,
+              px:{xs:4,sm:6,md:8},
               textAlign: "center",
               color: "#0099ff",
               fontWeight:600
@@ -100,12 +100,12 @@ const SignIn = () => {
           </Typography>
         </Box>
 
-        <Typography sx={{ fontSize: "1rem", mt: 3, px: 8,fontWeight:600 }}>
+        <Typography sx={{ fontSize: "1rem", mt: 3, px:{xs:4,sm:6,md:8},fontWeight:600 }}>
           Sign In
         </Typography>
 
         <form onSubmit={handleLogin}>
-          <Box sx={{ px:8}}>
+          <Box sx={{ px:{xs:4,sm:6,md:8}}}>
             <Box>
               
 
